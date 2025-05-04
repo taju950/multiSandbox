@@ -42,3 +42,12 @@ These are not the only used common used commands but the most used commands.
 - Use "git commit -m "Commit message"" to commit changes. (Commit means to confirm the changes are correct and can be staged.)
 - Use "git push" to push the changes to the changes to the gitHub.
 
+
+
+
+## How to clone a project or repository from github into my system:
+Steps for cloning a project into a directory:
+	step 1:navigate to the directory(folder) where you want to clone in terminal
+	step 2: write git clone command with the link which is found in git project
+	Example: git clone https://github.com/taju950/multiSandbox.git
+
