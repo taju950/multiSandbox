@@ -55,6 +55,9 @@ Steps for cloning a project into a directory:
 ## how to save provided  token for git push:
 git remote set-url origin https://<tocken>@github.com/<username>/<repo_name>
 
+## use of git add:
+The git add command is used to stage changes in your project so they’re ready to be committed. Think of it as telling Git, "I want to include these changes in my next snapshot." 
+
 
 
 
