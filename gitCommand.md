@@ -51,3 +51,11 @@ Steps for cloning a project into a directory:
 	step 2: write git clone command with the link which is found in git project
 	Example: git clone https://github.com/taju950/multiSandbox.git
 
+
+## how to save provided  token for git push:
+git remote set-url origin https://<tocken>@github.com/<username>/<repo_name>
+
+
+
+
+
