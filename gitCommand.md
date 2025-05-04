@@ -35,7 +35,11 @@ These are not the only used common used commands but the most used commands.
 ### 9 git -- help:
 - used to ask help 
 
+
+
+<hr>
 ## Common uses:
+
 ### how to save changes in file:
 - Use "git status" to view the changes or if there are any changes to be comited or to be pulled.
 - Then use "git add" to add your changes. (add is to let git know that to consider the changes and add the changes.)
@@ -52,11 +56,27 @@ Steps for cloning a project into a directory:
 	Example: git clone https://github.com/taju950/multiSandbox.git
 
 
-## how to save provided  token for git push:
+## How to save provided  token for git push:
 git remote set-url origin https://<tocken>@github.com/<username>/<repo_name>
 
-## use of git add:
-The git add command is used to stage changes in your project so they’re ready to be committed. Think of it as telling Git, "I want to include these changes in my next snapshot." 
+## Use of git add:
+The git add command is used to stage changes in your project so they’re ready to be committed. Think of it as telling Git, "I want to include these changes in my next snapshot."
+Example:git add <file-name>
+
+## Use of git commit:
+The git commit command is used to save your staged changes as a new snapshot in your local Git repository.
+Each commit acts as a "save point" in your project’s history, making it easy to track and revert changes if needed.
+Example: git commit -m "Your descriptive commit message"
+
+## use of git push:
+The git push command uploads your local commits to a remote repository, such as GitHub, so others can see and collaborate on your work. Here’s how to use it:
+
+git push <REMOTE-NAME> <BRANCH-NAME>
+<REMOTE-NAME> is usually origin (the default name for your remote repository).
+<BRANCH-NAME> is the branch you want to push, such as main or master
+Example:git push origin main
+
+
 
 
 
